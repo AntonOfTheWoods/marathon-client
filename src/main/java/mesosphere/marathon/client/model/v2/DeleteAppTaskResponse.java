@@ -3,13 +3,13 @@ package mesosphere.marathon.client.model.v2;
 import mesosphere.client.common.ModelUtils;
 
 public class DeleteAppTaskResponse {
-	private Task task;
+	private DeleteTask task;
 
-	public Task getTask() {
+	public DeleteTask getTask() {
 		return task;
 	}
 
-	public void setTask(Task task) {
+	public void setTask(DeleteTask task) {
 		this.task = task;
 	}
 

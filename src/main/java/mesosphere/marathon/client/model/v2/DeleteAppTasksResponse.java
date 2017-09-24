@@ -5,13 +5,13 @@ import java.util.Collection;
 import mesosphere.client.common.ModelUtils;
 
 public class DeleteAppTasksResponse {
-	private Collection<Task> tasks;
+	private Collection<DeleteTask> tasks;
 
-	public Collection<Task> getTasks() {
+	public Collection<DeleteTask> getTasks() {
 		return tasks;
 	}
 
-	public void setTasks(Collection<Task> tasks) {
+	public void setTasks(Collection<DeleteTask> tasks) {
 		this.tasks = tasks;
 	}
 
